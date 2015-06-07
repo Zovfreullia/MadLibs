@@ -28,6 +28,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *label8;
 @property (weak, nonatomic) IBOutlet UILabel *label9;
 @property (weak, nonatomic) IBOutlet UITextView *story;
+@property (weak, nonatomic) IBOutlet UIButton *button;
 
 @end
 
@@ -78,6 +79,7 @@
     self.story.text = [NSString stringWithFormat:@"%@ %@ %@ %@ %@ %@ %@ %@ %@ %@ %@ %@ %@ %@ %@ %@ %@ %@ %@ %@ %@ %@ %@", @"Once upon a time I was ", one, @"around and I ", two, @"my", three, @". A splinter was stuck inside my", three, @"and I thought it was", four, @". I", five, @"went to the", seven, @"to have it", six, @"but", seven, @"said it's nothing to", eight, @"about, and I should go back", nine, @"..."];
     
     self.story.hidden = NO;
+    self.button.hidden = YES;
     
     //(@"Once upon a time, I was %@", one);
     

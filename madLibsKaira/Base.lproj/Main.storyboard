@@ -253,6 +253,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="button" destination="1C5-ev-c8b" id="zJn-64-M6R"/>
                         <outlet property="label1" destination="2Na-Uu-Tlh" id="mkv-Ob-ijf"/>
                         <outlet property="label2" destination="KEO-qN-dY3" id="iW2-ao-eeh"/>
                         <outlet property="label3" destination="NP6-ES-X8o" id="lEG-d8-gUa"/>
