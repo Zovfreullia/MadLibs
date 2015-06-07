@@ -186,7 +186,19 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="166" y="562" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="Go:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5Uq-HS-paQ"/>
+                                </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="oVQ-NQ-Eqg">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="39" y="155" width="301" height="346"/>
+                                </variation>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -211,6 +223,7 @@
                                 <exclude reference="Gjp-ZN-Ok0"/>
                                 <exclude reference="Fub-IS-OuQ"/>
                                 <exclude reference="1C5-ev-c8b"/>
+                                <exclude reference="oVQ-NQ-Eqg"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -235,9 +248,31 @@
                                 <include reference="Gjp-ZN-Ok0"/>
                                 <include reference="Fub-IS-OuQ"/>
                                 <include reference="1C5-ev-c8b"/>
+                                <include reference="oVQ-NQ-Eqg"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="label1" destination="2Na-Uu-Tlh" id="mkv-Ob-ijf"/>
+                        <outlet property="label2" destination="KEO-qN-dY3" id="iW2-ao-eeh"/>
+                        <outlet property="label3" destination="NP6-ES-X8o" id="lEG-d8-gUa"/>
+                        <outlet property="label4" destination="JeI-LT-x7l" id="NBc-YW-MFh"/>
+                        <outlet property="label5" destination="9RV-FX-bEW" id="T8D-rH-YCt"/>
+                        <outlet property="label6" destination="Xu2-wv-PAh" id="Qcd-aF-Eg3"/>
+                        <outlet property="label7" destination="9dx-OU-0lg" id="gbR-yA-ytZ"/>
+                        <outlet property="label8" destination="Gjp-ZN-Ok0" id="0Ef-Nn-886"/>
+                        <outlet property="label9" destination="Fub-IS-OuQ" id="C4y-oF-pAi"/>
+                        <outlet property="story" destination="oVQ-NQ-Eqg" id="PcD-Wd-6DU"/>
+                        <outlet property="textField1" destination="iux-hO-geU" id="OW3-ea-agb"/>
+                        <outlet property="textField2" destination="e1g-nk-sfN" id="lEY-Qo-85o"/>
+                        <outlet property="textField3" destination="70u-3F-wEB" id="Np6-T3-Uyz"/>
+                        <outlet property="textField4" destination="dOP-Ur-TdM" id="FmY-qE-Yuy"/>
+                        <outlet property="textField5" destination="ifw-T0-vtX" id="8rp-H2-hbU"/>
+                        <outlet property="textField6" destination="xRs-1J-EH0" id="xnS-dJ-2eO"/>
+                        <outlet property="textField7" destination="k87-lP-RQP" id="il0-nT-fA3"/>
+                        <outlet property="textField8" destination="nSh-IX-Jzo" id="lbg-aP-Dzx"/>
+                        <outlet property="textField9" destination="zGW-Si-JVl" id="0IO-GI-3wE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
